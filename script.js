@@ -207,7 +207,7 @@ if (age < 13) {
 /*****************************
 * The Ternary Operator and Switch Statements
 */
-/*
+
 var firstName = 'John';
 var age = 14;
 
@@ -254,14 +254,14 @@ switch (true) {
     default:
         console.log(firstName + ' is a man.');
 }
-*/
+
 
 
 
 /*****************************
 * Truthy and Falsy values and equality operators
 */
-/*
+
 // falsy values: undefined, null, 0, '', NaN
 // truthy values: NOT falsy values
 
@@ -323,14 +323,14 @@ if (scoreJohn > scoreMike) {
 } else {
     console.log('There is a draw');
 }
-*/
+
 
 
 
 /*****************************
 * Functions
 */
-/*
+
 function calculateAge(birthYear) {
     return 2018 - birthYear;
 }
@@ -356,14 +356,14 @@ function yearsUntilRetirement(year, firstName) {
 yearsUntilRetirement(1990, 'John');
 yearsUntilRetirement(1948, 'Mike');
 yearsUntilRetirement(1969, 'Jane');
-*/
+
 
 
 
 /*****************************
 * Function Statements and Expressions
 */
-/*
+
 // Function declaration
 // function whatDoYouDo(job, firstName) {}
 
@@ -384,14 +384,14 @@ var whatDoYouDo = function(job, firstName) {
 console.log(whatDoYouDo('teacher', 'John'));
 console.log(whatDoYouDo('designer', 'Jane'));
 console.log(whatDoYouDo('retired', 'Mark'));
-*/
+
 
 
 
 /*****************************
 * Arrays
 */
-/*
+
 // Initialize new array
 var names = ['John', 'Mark', 'Jane'];
 var years = new Array(1990, 1969, 1948);
@@ -420,7 +420,7 @@ console.log(john.indexOf(23));
 
 var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
-*/
+
 
 
 
@@ -428,7 +428,7 @@ console.log(isDesigner);
 * CODING CHALLENGE 3
 */
 
-/*
+
 John and his family went on a holiday and went to 3 different restaurants. The bills were $124, $48 and $268.
 
 To tip the waiter a fair amount, John created a simple tip calculator (as a function). He likes to tip 20% of the bill when the bill is less than $50, 15% when the bill is between $50 and $200, and 10% if the bill is more than $200.
@@ -464,14 +464,9 @@ var finalValues = [bills[0] + tips[0],
                    bills[2] + tips[2]];
 
 console.log(tips, finalValues);
-*/
 
 
 
-/*****************************
-* Objects and properties
-*/
-/*
 // Object literal
 var john = {
     firstName: 'John',
@@ -497,7 +492,7 @@ jane.firstName = 'Jane';
 jane.birthYear = 1969;
 jane['lastName'] = 'Smith';
 console.log(jane);
-*/
+
 
 
 
