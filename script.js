@@ -495,34 +495,6 @@ console.log(jane);
 
 
 
-
-/*****************************
-* Objects and methods
-*/
-/*
-var john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    birthYear: 1992,
-    family: ['Jane', 'Mark', 'Bob', 'Emily'],
-    job: 'teacher',
-    isMarried: false,
-    calcAge: function() {
-        this.age = 2018 - this.birthYear;
-    }
-};
-
-john.calcAge();
-console.log(john);
-*/
-
-
-
-/*****************************
-* CODING CHALLENGE 4
-*/
-
-/*
 Let's remember the first coding challenge where Mark and John compared their BMIs. Let's now implement the same functionality with objects and methods.
 1. For each of them, create an object with properties for their full name, mass, and height
 2. Then, add a method to each object to calculate the BMI. Save the BMI to the object and also return it from the method.
@@ -560,13 +532,31 @@ if (john.calcBMI() > mark.calcBMI()) {
 } else {
     console.log('They have the same BMI');
 }
-*/
+const person = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
 
+// This will return "John Doe":
+person.fullName();  
 
+const person = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
 
-/*****************************
-* Loops and iteration
-*/
+const member = {
+  firstName:"Hege",
+  lastName: "Nilsen",
+}
+
+let fullName = person.fullName.bind(member);
 
 /*
 // for loop
