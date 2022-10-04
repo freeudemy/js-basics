@@ -28,7 +28,7 @@ var if = 23;
 /*****************************
 * Variable mutation and type coercion
 */
-/*
+
 var firstName = 'John';
 var age = 28;
 
@@ -47,16 +47,16 @@ job = 'driver';
 
 alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
-var lastName = prompt('What is his last Name?');
+var lastName = prompt('What is first name and last name');
 console.log(firstName + ' ' + lastName);
-*/
+
 
 
 
 /*****************************
 * Basic operators
 */
-/*
+
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -84,14 +84,13 @@ console.log(typeof ageJohn);
 console.log(typeof 'Mark is older tha John');
 var x;
 console.log(typeof x);
-*/
 
 
 
 /*****************************
 * Operator precedence
 */
-/*
+
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -119,7 +118,7 @@ x += 10;
 console.log(x);
 x--;
 console.log(x);
-*/
+
 
 
 
@@ -127,7 +126,7 @@ console.log(x);
 * CODING CHALLENGE 1
 */
 
-/*
+
 Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height^2 = mass / (height * height). (mass in kg and height in meter).
 
 1. Store Mark's and John's mass and height in variables
@@ -150,26 +149,18 @@ console.log(BMIMark, BMIJohn);
 
 var markHigherBMI = BMIMark > BMIJohn;
 console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
-*/
+
 
 
 
 /*****************************
 * If / else statements
 */
-/*
+
 var firstName = 'John';
 var civilStatus = 'single';
 
 if (civilStatus === 'married') {
-    console.log(firstName + ' is married!');
-} else {
-    console.log(firstName + ' will hopefully marry soon :)');
-}
-
-
-var isMarried = true;
-if (isMarried) {
     console.log(firstName + ' is married!');
 } else {
     console.log(firstName + ' will hopefully marry soon :)');
@@ -189,14 +180,14 @@ if (BMIMark > BMIJohn) {
 } else {
     console.log('John\'s BMI is higher than Marks\'s.');
 }
-*/
+
 
 
 
 /*****************************
 * Boolean logic
 */
-/*
+
 var firstName = 'John';
 var age = 20;
 
@@ -209,7 +200,7 @@ if (age < 13) {
 } else {
     console.log(firstName + ' is a man.');
 }
-*/
+
 
 
 
